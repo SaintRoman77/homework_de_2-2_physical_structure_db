@@ -34,8 +34,8 @@ docker stop ID-контейнера
 docker run ID-контейнера
 ```
 
-Подключиться к работающему контейнеру, запускать интерфейс psql и вносить новые данные «на лету»:
+Подключиться к работающему контейнеру, запускать интерфейс psql и вносить новые данные:
 
 ```
-docker exec -it infra-db-1 psql -U postgres
+docker exec -it infra-db-1 psql -U postgres testdb
 ```
